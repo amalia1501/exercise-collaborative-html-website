@@ -1,19 +1,46 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
-<h1>Contact</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore ipsum laboriosam recusandae doloribus. Nisi assumenda commodi libero placeat architecto, dolorem fugit? Voluptatem, id. Fugiat est accusantium consectetur deserunt ratione.</p>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Contact</title>
+</head>
+<body>
+
+  <div class="container">
+  <h1>Contact</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore ipsum laboriosam recusandae doloribus. Nisi assumenda commodi libero placeat architecto, dolorem fugit? Voluptatem, id. Fugiat est accusantium consectetur deserunt ratione.</p>
+   
+</div>
+
+<div class="container" style="padding:5%; background-color: rgb(209, 209, 209); width: 70%;" >
 <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted"></small>
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+    <div class="form-group row" style="padding-bottom: 1%;">
+      <label for="exampleInputEmail1" class="col-sm-2 col-form-label; text-center">Your E-Mail</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email">
       </div>
-    
-    <button type="submit" class="btn btn-primary">Submit</button>
+     
+    </div>
+      <div class="form-group row">
+        <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label; text-center"> Your Message</label>
+        <div class="col-sm-10">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" cols="10" placeholder="Please enter your message here..."></textarea>
+      </div>
+      </div>
+      <div class="d-flex justify-content-end" style="padding-top: 3%;">
+ 
+    <button type="button" class="btn btn-primary">Submit</button>
+  </div>
   </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
